@@ -1,4 +1,27 @@
-p {
-    font-size: 40px;
-    color: salmon;
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cover {
+    background-image: url("assets/freedom.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding: 0 2.5rem;
+}
+
+.quote {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2.5rem;
+    margin: 3rem auto;
+}
+
+.author {
+    font-family: 'Crimson Text';
+    font-style: italic;
 }
